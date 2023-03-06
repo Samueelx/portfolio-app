@@ -21,6 +21,9 @@ gem 'sqlite3', '~> 1.6', '>= 1.6.1'
 # Require all files in a folder
 gem 'require_all', '~> 3.0'
 
+#Middleware that makes Rack-based apps CORS compatible.
+gem 'rack-cors', '~> 2.0'
+
 gem 'puma', '~> 6.1', '>= 6.1.1'
 gem 'thin', '~> 1.8', '>= 1.8.1'
 gem 'falcon', '~> 0.42.3'
