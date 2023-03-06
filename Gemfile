@@ -29,6 +29,9 @@ gem 'thin', '~> 1.8', '>= 1.8.1'
 gem 'falcon', '~> 0.42.3'
 gem 'webrick', '~> 1.8', '>= 1.8.1'
 
+ruby "~> 2.7.4"
+gem 'io-event', '~> 0.4.0'
+
 # These gems will only be used when we are running the application locally
 group :development do
     # Used to generate seed data
@@ -37,9 +40,4 @@ group :development do
     # Auto-reload the server when files are changed
     gem "rerun"
 
-end
-
-group :deployment do
-    ruby "~> 2.7.4"
-    gem 'io-event', '~> 0.4.0'
 end
