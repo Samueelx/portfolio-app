@@ -43,6 +43,10 @@ Then, populate the database tables with sample data using the following command 
 ### Executing the program
 You can test out the endpoints exposed by this app using [Postman](https://www.postman.com/) or the [Thinder Client Extension](https://www.thunderclient.com/) if you're using Visual Studio Code.
 
+Screenshot from postman:
+
+![Screenshot](./pictures/screenshot-from-postman-portfolio-app.png)
+
 The endpoints have been defined in the ruby files located in `./app/controllers/` directory.
 
 ## Authors
