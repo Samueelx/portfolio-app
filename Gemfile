@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby "~> 2.7.4"
-
 # A DSL for quickly creating web applications
 gem 'sinatra', '~> 3.0', '>= 3.0.5'
 
@@ -39,4 +37,9 @@ group :development do
     # Auto-reload the server when files are changed
     gem "rerun"
 
+end
+
+group :deployment do
+    ruby "~> 2.7.4"
+    gem 'io-event', '~> 0.4.0'
 end
