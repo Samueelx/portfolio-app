@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.7.4'
+ruby "~> 2.7.x"
 
 # A DSL for quickly creating web applications
 gem 'sinatra', '~> 3.0', '>= 3.0.5'
